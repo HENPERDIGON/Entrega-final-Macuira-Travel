@@ -1,23 +1,7 @@
 
-header {
-    border: solid 2px black;
+@import "componentes/header";
 
-    background-color: cadetblue;
-    font-size: 1rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+@import "componentes/main";
 
+@import "componentes/medias"
 
-}
-
-div,
-.lead {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 100;
-    text-align: justify;
-
-}
